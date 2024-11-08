@@ -25,7 +25,7 @@ public class Door : MonoBehaviour
         if(!locked && distance < 0.5f)
         {
             //Input allocated scene name here
-            SceneManager.LoadScene("Exit Cutscene");
+            SceneManager.LoadScene("Lvl1");
         }
     }
 
